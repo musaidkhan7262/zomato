@@ -1,0 +1,1154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    font-family: 'Poppins', sans-serif !important;
+    /* overflow-x:hidden ; */
+}
+.old_menu{
+    display: none;
+}
+.menu{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 9999999;
+    background: #ffffff;
+    color: #000000;
+    padding: 20px 15px 20px 30px;
+}
+.menu .top_line_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu h1{
+    font-size: 35px;
+    cursor: pointer;
+}
+.menu i{
+    font-size: 35px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.menu section{
+    color: #000000;
+    font-size: 30px;
+    margin: 50px 0 0px 20px;
+    font-weight: 100;
+    display: flex;
+    /* align-items: ; */
+    justify-content: space-evenly;
+    height: 300px;
+    flex-direction: column;
+}
+.menu h6{
+    cursor: pointer;
+     
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right:50px ;
+    background-color: transparent;
+    position: absolute;
+    z-index: 999;
+    font-family: "poppins";
+    font-weight: 500;
+}
+nav i{
+    display: none;
+}
+nav a{
+    color: white;
+    font-size:1.5625rem;
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: "poppins";
+    font-weight: 500;
+}
+header{
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    color: aliceblue;
+}
+header h1{
+    font-size: 5.625rem;
+    margin: 20px;
+    font-weight:bold;
+}
+header h2{
+    font-size: 2.1875rem;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 700px;
+    font-family: "poppins";
+    font-weight: 400;
+
+}
+/* --------------------------------------------------main------------------------------------------------ */
+main{
+    background: #fdfdfd;
+}
+.first_text_container_of_main{
+    min-height: 300px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 80px;
+    font-family: "poppins";
+    font-weight: 200;
+
+
+}
+.first_text_container_of_main h3{
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    font-family: "poppins";
+    font-weight: 500;
+}
+.first_text_container_of_main img{
+    margin: 0 5px;
+    height: 40px;
+}
+.first_text_container_of_main p{
+    max-width: 1000px;
+    font-size: 1.5625rem;
+
+}
+.cities_card_ctainer{
+    min-height: 1600px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 110px;
+}
+.cities_card_ctainer a{
+    height: 65px;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: 1px 1px 3px rgb(46, 46, 46);
+    background-color: transparent;
+    text-decoration: none;
+    margin: 16px;
+}
+.city_button{
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: 1px 1px 3px rgb(46, 46, 46);
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.city_button:hover{
+    box-shadow: 1px 2px 6px rgb(46, 46, 46);
+
+}
+.country_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.country_button{
+    height: 65px;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: 1px 1px 3px rgb(46, 46, 46);
+    background-color: transparent;
+    text-decoration: none;
+    margin: 16px;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.country_card img{
+    height: 35px;
+}
+.country_cards{
+    min-height: 700px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 110px;
+    justify-content: center;
+}
+.countries_container h1{
+    margin: 20px 120px ;
+}
+/* ------------------------------------------------------footer---------------------------------------------------------------------- */
+footer{
+    background: #ecebeb;
+    width: 100vw;
+    padding: 50px 120px 10px 120px;
+}
+.branding_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+}
+.select{
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    font-size: larger;
+    border-radius: 5px;
+
+}
+footer .cards_section_in_footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:space-between;
+    width: 100%;
+    /* background: #000; */
+    flex-wrap: wrap;
+}
+footer .cards_section_in_footer .card_of_footr{
+    height: 250px;
+    width: 200px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    font-size: 1.5625rem;
+    margin-top: 25px;
+}
+.card_of_footr h6{
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.card_of_footr a{
+    margin: 10px 0;
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+    font-size: .9375rem;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+}
+footer li{
+    background: #000;
+    color: #ffffff;
+    font-size: .9375rem;
+    padding: 5px 8.0002px;
+    border-radius: 20px;
+}
+footer li:hover{
+    color: #000000;
+    background: transparent;
+    font-weight: bold;
+    
+
+}
+.card_of_footr img{
+    height: 50px;
+    margin-top: 20px;
+    width: 160px;
+}
+#p{
+    min-height: 50px;
+    align-self: center;
+    margin-top: 20px;
+    color: #3d3d3d;
+}
+
+
+/* -----------------------------------------second-page--------------------------------------------------------- */
+/* -----------------------------------------second-page--------------------------------------------------------- */
+/* -----------------------------------------second-page--------------------------------------------------------- */
+/* -----------------------------------------second-page--------------------------------------------------------- */
+
+.nav_container{
+    padding: 0 120px;
+}
+.top_nav{
+    display: flex;
+    height: 90px;
+    /* background: #000; */
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.top_nav #logo{
+    height: 30px;
+}
+.top_nav .nav_span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65vw;
+}
+
+.top_nav .search_container{
+    height: 55px;
+    width: 50vw;
+    background: transparent;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgb(202, 202, 202);
+}
+.location{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+
+}
+.location span{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.location span i{
+    font-size: 20px;
+    color: rgb(253, 120, 120);
+}
+.vr{
+    height: 20px;
+    width: 2px;
+    background: #5a5959;
+    margin: 0 10px;
+}
+.seach_icon_div .bi-search{
+    font-size: 20px;
+    color: #5a5959;
+    margin: 0 10px;
+
+}
+.search_box input{
+    width: 400px;
+    font-size: 15px;
+    outline: none;
+    padding-left: 10px;
+    background: transparent;
+    border: none;
+    
+}
+.optional_menu{
+    display: flex;
+    height: 100px;
+    /* background: #4b4949; */
+}
+.optional_menu img{
+    height: 30px;
+    background: transparent;
+    padding: 0px;
+    margin:15px ;
+}
+#opt_bg{
+    height:60px;
+    width: 60px;
+    background: #f8f5f5;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.sec_opt{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    width:170px;
+    cursor: pointer;
+
+}
+#fst_opt{
+    color: rgb(252, 89, 89);
+    border-bottom:3px solid rgb(252, 89, 89);
+}
+#fst_opt #opt_bg{
+    background: #ffe8b5;
+}
+.sec_back_menu a{
+    text-decoration: none;
+    margin: 10px;
+    color: #b8b7b7;
+}
+.sec_back_menu{
+    font-size: 10px;
+    color: #cecdcd;
+}
+.sec_nav{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    padding: 0 120px;
+    border-top: 1px solid rgb(236, 234, 234);
+}
+.sec_nav .nav_btn_sec{
+    height: 40px;
+    display: flex;
+    background: #ffffff;
+    margin: 10px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid rgb(216, 214, 214);
+    color: rgb(161, 159, 159);
+    cursor: pointer;
+    
+}
+.nav_btn_sec:hover{
+    background: #f1efef;
+}
+/* //////-------------------------------------food-type-----------------------------------/////// */
+.food_types{
+    width: 100%;
+    position: relative;
+    padding: 0 120px;
+    background: #f7f5f5;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+
+}
+.food_types h1{
+    font-size: 25px;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+
+.food_type_photos{
+    display: flex;
+    width: 100%;
+    background: transparent;
+    overflow: hidden;
+    position: relative;
+
+}
+.sec_next_button{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: #ffffff;
+    right: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    align-self: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px  black;
+}
+
+.sec_pre_button{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    align-self: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px  black;
+    left: 8px;
+    
+}
+.food_type_photos .food_type_div{
+    justify-content: center;
+    text-align: center;
+    width: 160px;
+    margin:0 20px;
+}
+.food_type_photos img{
+    border-radius: 500px;
+    height: 145px;
+    width: 145px;
+    transition: linear 2s;
+}
+/* ////----------------------------------------------------------food brands----------------------------------------- */
+.food_brand{
+    width: 100vw;
+    position: relative;
+    padding: 0 120px;
+
+}
+.food_brand h1{
+    font-size: 25px;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+
+.food_brand_photos{
+    display: flex;
+    width: 100%;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.food_brand_photos .food_brand_div{
+    justify-content: center;
+    text-align: center;
+    width: 160px;
+    margin:0 20px;
+
+}
+.food_brand_photos img{
+    border-radius: 500px;
+    height: 150px;
+    width: 150px;
+}
+/* ---------------------------------------card section---------------------------------- */
+
+.sec_card_container{
+    width:100vw;
+    padding: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #ffffff;
+    justify-content: space-around;
+}
+.sec_card{
+    width: 350px;
+    height: 350px;
+    background:transparent;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;
+    cursor: pointer;
+    text-transform: capitalize;
+    /* overflow: hidden; */
+}
+.sec_card:hover{
+    box-shadow: 0 0 10px rgb(197, 195, 195);
+}
+.sec_card span{
+    display: flex;
+    justify-content: space-between;
+    font-weight:300 ;
+}
+.sec_card h3{
+    font-weight: 500;
+}
+.sec_card .sec_text_card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 60px;
+    margin-top: 10px;
+}
+.sec_img_card{
+    width: 330px;
+    height: 200px;
+    overflow: hidden;
+
+}
+.sec_img_card img{
+    width: 100%;
+    object-position: center;
+    border-radius: 10px;
+    transition: 10s linear;
+}
+.sec_card_hover_effect{
+    height: 60px;
+    width: 330px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sec_card_hover_effect .absolute div{
+    width: 700px;
+    position: absolute;
+    display: flex;
+    background: #ffffff;
+    align-items: center;
+    bottom: 0;
+    font-size: 15px;
+    transition: 2s;
+    transition-timing-function:linear;
+}
+.sec_card_hover_effect .absolute div p{
+    width: 300px;
+    padding-left: 10px;
+}
+.sec_card:hover .absolute div{
+    transform: translateX(-330px);
+    transition: 2s linear;
+}
+.sec_card_hover_effect img{
+    height: 15px;
+}
+/* =--------------------------------------------------==---signup------------------------------------------- */
+.signup_pag{
+    display: none;
+}
+.signup_page .signup_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 460px;
+    width: 400px;
+    background: #dad9d9;
+    border-radius: 10px;
+    position: relative;
+    padding: 0 10px;
+}
+.signup_page .signup_form span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:20px;
+    width: 100%;
+    padding: 5px 15px;
+    margin: 0 0 20px 0;
+}
+.signup_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999999;
+    background-color: transparent;
+    top: 0;
+    background-color: #000000a9;
+
+}
+.signup_page .signup_form form{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup_page .signup_form form input{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: 1px solid black;
+    border: none;
+}
+.signup_page .sign_check{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup_page .sign_check p{
+    font-size: 12px;
+    width: 90%;
+}
+.signup_page .signup_form button{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    color: #fdfdfd;
+    background: #0c0a63;
+    cursor: pointer;
+}
+.signup_page .signup_form #or_sec{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+.signup_page .signup_form #or_sec div{
+    height: 1px;
+    background: #adadad;
+    width:48%;
+}
+.signup_page .signup_form #a{
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+}
+.signup_page .signup_form #a div{
+   height: 40px;
+   width: 100%;
+   background: #ffffff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5px;
+
+}
+.signup_page .signup_form #a img{
+    height: 35px;
+}
+.signup_page .signup_form #last_ine_of_form{
+    height: 40px;
+    display: flex;
+    align-items:last baseline;
+}
+.signup_button{
+    cursor: pointer;
+}
+/* -------------------------------------------log-in----------------------------------------------------------------- */
+.login_pag{
+    display: none;
+}
+.log_in_button,.signup_button{
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    font-size: large;
+    border: none;
+    font-weight: bold;
+    background: transparent;
+}
+.login_page .signup_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 460px;
+    width: 400px;
+    background: #fffefe;
+    border-radius: 10px;
+    position: relative;
+    padding: 0 10px;
+}
+.login_page .signup_form span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:20px;
+    width: 100%;
+    padding: 5px 15px;
+    margin: 0 0 20px 0;
+}
+.login_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999999;
+    background-color: transparent;
+    top: 0;
+    background-color: #000000a9;
+}
+.login_page .signup_form form{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* outline: 1px solid black; */
+    border-radius: 5px;
+    border:1px solid #c2bdbd;
+    margin: 10px 0;
+}
+.login_page .signup_form form input{
+    height: 40px;
+    width: 80%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.login_page .signup_form form select{
+    height: 40px;
+    width: 20%;
+    font-size: 20px;
+    border: none;
+}
+
+.login_page .signup_form button{
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    color: #fdfdfd;
+    background: #ec3c3c;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.login_page .signup_form #or_sec{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+.login_page .signup_form #or_sec div{
+    height: 1px;
+    background: #adadad;
+    width:48%;
+}
+.login_page .signup_form #a{
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    margin: 20px 0;
+}
+.login_page .signup_form #a div{
+   height: 45px;
+   width: 100%;
+   background: #ffffff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5px;
+   outline: 1px solid rgb(185, 185, 185);
+
+}
+.login_page .signup_form #a img{
+    height: 35px;
+}
+.login_page .signup_form #a #img_gmail{
+    height: 22px;
+    margin-right: 5px;
+}
+.login_page .signup_form #last_ine_of_form{
+    height: 40px;
+    display: flex;
+    align-items:last baseline;
+}
+.login_button{
+    cursor: pointer;
+}
+/* ------------------------------------media------------------------------------------------------ */
+@media(max-width:1024px){
+    html{
+        font-size: 90%;
+    }
+    .nav_container{
+        padding: 0 100px;
+    }
+.food_types{
+    padding: 0 5%;
+}
+.top_nav .nav_span{
+    width: 60vw;
+}
+.top_nav .search_container{
+    width: 40vw;
+}
+}
+@media (max-width:768px){
+    html{
+        font-size: 80%;
+    }
+    nav{
+        padding-right:30px ;
+    }
+    nav a{
+        display: none;
+        }
+    nav i{
+        display: flex;
+        font-size: 1.875rem;
+        color: white;
+        cursor: pointer;
+    }
+.first_text_container_of_main{
+    padding: 10px 20px;
+}
+.cities_card_ctainer{
+    padding: 0 10px;
+}
+.country_cards{
+    padding: 0 10px;
+    
+}
+.countries_container h1{
+    margin: 20px 20px ;
+
+}
+footer{
+    padding: 50px 20px 10px 20px;
+
+}
+.select{
+    height: 30px;
+    width: 80px;
+}
+footer .cards_section_in_footer .card_of_footr{
+    height: 250px;
+    width: 160px;
+    margin-top: 20px;
+}
+
+.first_text_container_of_main h3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.top_nav .search_container{
+    display:none;
+}
+.nav_container{
+    padding: 0 40px;
+}
+#opt_bg{
+    height: 50px;
+    width: 50px;
+}
+.optional_menu img{
+    height: 30px;
+    margin:10px ;
+}
+.sec_opt{
+    margin: 0 10px;
+    width:100px;
+
+}
+.sec_nav{
+    width: 100vw;
+    height: 70px;
+    padding: 0 20px;
+}
+.food_types, .food_brand{
+    height: 130px;
+}
+.food_types h1,.food_brand h1{
+    font-size:17px;
+    margin: 5px 0px;
+
+}
+.food_type_photos,.food_brand_photos{
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 72px;
+    overflow-y: scroll;
+}
+.food_type_photos .food_type_div, .food_brand_photos .food_brand_div{
+    justify-content: center;
+    text-align: center;
+    width: 60px;
+    margin:0 7px;
+}
+.food_type_photos img, .food_brand_photos img{
+    border-radius: 500px;
+    height: 50px;
+    width: 50px;
+    transition: linear 2s;
+}
+.sec_next_button{
+    display: none;
+}
+.food_brand{
+    padding: 0 5%;
+}
+}
+@media (max-width:400px){
+    html{
+        font-size: 65%;
+    }
+    .top_nav{
+        height: 60px;
+    }
+    .sec_back_menu a{
+        font-size: 8px;
+    }
+    .first_text_container_of_main h3{
+        font-size: 2rem;
+    }
+    .first_text_container_of_main h3 img{
+        height: 25px;}
+        
+        
+        .nav_container{
+            padding: 0 10px;
+        }
+        #opt_bg{
+            height: 50px;
+            width: 50px;
+        }
+        .optional_menu img{
+            height: 30px;
+            margin:10px ;
+        }
+        .sec_opt{
+            margin: 0 5px;
+            width:100px;
+        
+        }
+        .sec_nav{
+            width: 100%;
+            height: 50px;
+            padding: 0 2px;
+            overflow-x: scroll;
+        }  
+        .sec_nav .nav_btn_sec{
+            height: 25px;
+            margin: 4px;
+            padding: 3px;
+            border-radius: 5px;   
+            font-size: 8px;  
+        }  
+        .top_nav #logo{
+            height: 20px;
+        }
+        .log_in_button,.signup_button{
+            cursor: pointer;
+            height: 30px;
+            width: 50px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .optional_menu{
+            height: 50px;
+        }
+        #opt_bg{
+            height: 30px;
+            width: 30px;
+        }
+        .optional_menu img{
+            height: 15px;
+            margin:7px ;
+        }
+        .sec_opt{
+            margin: 0 5px;
+            width:70px;
+            height: 50px;
+        }
+        .food_types, .food_brand{
+            height: 210px;
+        }
+        .food_types h1,.food_brand h1{
+            font-size:17px;
+            margin: 5px 0px;
+
+        }
+        .food_type_photos,.food_brand_photos{
+            justify-content: center;
+            text-align: center;
+            flex-wrap: wrap;
+            height: 140px;
+            overflow-y: scroll;
+        }
+        .food_type_photos .food_type_div, .food_brand_photos .food_brand_div{
+            justify-content: center;
+            text-align: center;
+            width: 60px;
+            margin:0 7px;
+        }
+        .food_type_photos img, .food_brand_photos img{
+            border-radius: 500px;
+            height: 50px;
+            width: 50px;
+            transition: linear 2s;
+        }
+        .sec_next_button{
+            display: none;
+        }
+        .food_brand{
+            padding: 0 15px;
+        }
+        .sec_card{
+            width: 300px;
+            height: 300px;
+            padding: 8px;
+            border-radius: 8px;
+            /* overflow: hidden; */
+        }
+        .sec_card span{
+            display: flex;
+            justify-content: space-between;
+            font-weight:300 ;
+        }
+        .sec_card h3{
+            font-weight: 300;
+        }
+        .sec_card .sec_text_card{
+            height: 60px;
+            margin-top: 10px;
+        }
+        .sec_img_card{
+            width: 100%;
+            height: 180px;
+            overflow: hidden;
+        
+        }
+        .sec_img_card img{
+            width: 100%;
+            object-position: center;
+            border-radius: 10px;
+            transition: 10s linear;
+        }
+        .sec_card_hover_effect{
+            height: 60px;
+            width: 284px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .sec_card_hover_effect .absolute div{
+            width: 800px;
+            position: absolute;
+            display: flex;
+            background: #ffffff;
+            align-items: center;
+            bottom: 0;
+            font-size: 12px;
+            transition: 2s;
+            transition-timing-function:linear;
+        }
+        .sec_card_hover_effect .absolute div p{
+            width: 250px;
+            padding-left: 10px;
+        }
+        .sec_card:hover .absolute div{
+            transform: translateX(-280px);
+            transition: 2s linear;
+        }
+        .sec_card_hover_effect img{
+            height: 15px;
+        }
+        
+
+}
